@@ -2,9 +2,20 @@
 
 这个项目是 react 的模板项目，为了快速构建react 基础项目而创建
 
-### 目前包含仓库
+### 项目包含分支
 
-- mobile-mobx
-- mobile-redux
-- pc-mobx
-- pc-redux
+- webpack4
+    - 开发中。。。
+    - mobile-mobx
+    - pc-mobx
+    - 规划中。。。
+    - mobile-redux
+    - pc-redux
+
+- webpack5
+    - 开发中。。。
+    - mobile-mobx
+    - pc-mobx
+    - 规划中。。。
+    - mobile-redux
+    - pc-redux
