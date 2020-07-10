@@ -1,0 +1,159 @@
+// @function WH($val){
+//     @return $val*100/2 + px;
+// }
+.BodyCon{
+    // padding-top:15px;
+    .contselec,input{
+        margin:0 20px 15px 0;
+        width:200px;
+    }
+}
+.BodyConpicker{
+    // padding-top:15px;
+    .pickerSel{
+        margin:0 20px 15px 0;
+        width:200px;
+    }
+    .pickerText{
+        font-size:15px;
+        color:rgb(102,102,102);
+        display:block;
+        width:100%;
+       
+        // margin-bottom:15px;
+    }
+}
+.BodyConmore{
+    .contselec,input{
+        margin:0 20px 15px 0;
+        min-width:80px;
+    }
+}
+
+// 图片上传组件
+
+.upImg{
+    display: flex;
+    position: relative;
+    padding-top: WH(0.3);
+    .imgWrapper {
+    position: relative;
+    width: WH(2.08);
+    height: WH(2.08);
+    float: left;
+    & + .imgWrapper {
+        margin-left: WH(0.4);
+    }
+    input[type="file"] ,
+    .upImg{
+        position: absolute;
+        width:WH(2.08);
+        height:WH(2.08);
+        z-index: 2;
+    }
+    input[type="file"]{
+        opacity: 0;
+        z-index: 3;
+        filter: Alpah(opacity=0);
+    }
+}
+    span.upImgTitle{
+        font-size:WH(0.28);
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(153,153,153,1);
+        line-height:WH(2.08);
+        margin-right:WH(0.4);
+    }
+    div.NoImg{
+        position: relative;
+        width:WH(2.08);
+        height:WH(2.08);
+
+        span{
+            display: block;
+            width:100%;
+            font-size:WH(0.28);
+            font-family:PingFangSC-Regular,PingFang SC;
+            font-weight:400;
+            text-align: center;
+            color:rgba(51,51,51,1);
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom:WH(0.2);
+    
+        }
+    }
+    img{
+        display: block;
+        width:WH(2.08);
+        position: absolute;
+        padding-top: 0;
+        
+    }
+    
+
+}
+.BodyContentNeed{
+    position:relative;
+.Urgency{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    padding-bottom:30px;
+    .UrgencyText{
+        font-size:15px;
+        color:rgb(102,102,102);
+        margin:20px 30px;
+    }
+    .UrgencyTextOne{
+        font-size:15px;
+        color:rgb(102,102,102);
+        display:block;
+        width:100%;
+    }
+    Button,.radioButton{
+        margin:15px 15px 0 0;
+    }
+    .InputPlec{
+        width:200px;
+        margin-right:15px;
+    }
+}
+.UrgencyLeft{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    padding-bottom:0;
+    .UrgencyText{
+        font-size:15px;
+        color:rgb(102,102,102);
+        margin:20px 30px;
+    }
+    Button{
+        margin-right:15px;
+    }
+    .InputPlec{
+        width:200px;
+        margin-right:15px;
+    }
+    Button,.radioButton{
+        margin:0px 15px 0 0;
+    }
+}
+.UrgencyTwo{
+    display: flex;
+    padding-left:120px;
+    Button{
+        margin-right:15px;
+    }
+}
+
+.UrgencyALTbtn{
+    margin-top:15px;
+    Button{
+        margin:0 15px 15px 0;
+    }
+}
+}
