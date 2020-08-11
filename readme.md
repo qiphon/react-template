@@ -4,14 +4,6 @@
 
 ### 项目包含分支
 
-- webpack4
-    - 开发中。。。
-    - mobile-mobx
-    - pc-mobx
-    - 规划中。。。
-    - mobile-redux
-    - pc-redux
-
 - webpack5
     - 开发中。。。
     - mobile-mobx
